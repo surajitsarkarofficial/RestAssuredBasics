@@ -42,7 +42,7 @@ public class BasicMethodsTest extends BaseTest{
     {
         RequestSpecification reqSpec = RestAssured.with();
 
-        reqSpec.pathParam("id",2);
+        reqSpec.pathParam("id",1);
         //reqSpec.queryParam("programme","Computer Science");
 
         Response response = reqSpec.get("/{id}");
